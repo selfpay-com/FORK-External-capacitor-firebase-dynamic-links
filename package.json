@@ -1,30 +1,30 @@
 {
-  "name": "@turnoutt/capacitor-firebase-dynamic-links",
-  "version": "0.2.3",
+  "name": "@selfpay/capacitor-firebase-dynamic-links",
+  "version": "5.0.0",
   "description": "Capacitor Plugin for Firebase Dynamic Links",
-  "main": "dist/esm/index.js",
+  "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "scripts": {
     "build": "npm run clean && tsc",
-    "clean": "rm -rf ./dist",
+    "clean": "del /s /q dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "Bharani",
+  "author": "SelfPay",
   "license": "MIT",
   "dependencies": {
     "@capacitor/core": "latest"
   },
   "devDependencies": {
-    "typescript": "^3.2.4",
+    "@capacitor/android": "latest",
     "@capacitor/ios": "latest",
-    "@capacitor/android": "latest"
+    "typescript": "^4.3.5"
   },
   "files": [
     "dist/",
     "ios/",
     "android/",
-    "TurnouttCapacitorFirebaseDynamicLinks.podspec"
+    "SelfpayCapacitorFirebaseDynamicLinks.podspec"
   ],
   "keywords": [
     "capacitor",
@@ -41,10 +41,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ClipboardHealth/capacitor-firebase-dynamic-links.git"
+    "url": "https://github.com/selfpay-ro/capacitor-firebase-dynamic-links.git"
   },
   "bugs": {
-    "url": "https://github.com/ClipboardHealth/capacitor-firebase-dynamic-links.git/issues"
+    "url": "https://github.com/selfpay-ro/capacitor-firebase-dynamic-links.git/issues"
   },
-  "homepage": "https://github.com/ClipboardHealth/capacitor-firebase-dynamic-links#readme"
+  "homepage": "https://github.com/selfpay-ro/capacitor-firebase-dynamic-links#readme"
 }
