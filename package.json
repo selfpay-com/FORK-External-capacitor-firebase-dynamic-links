@@ -21,7 +21,7 @@
     "@capacitor/android": "latest"
   },
   "files": [
-    "dist/",
+    "src/",
     "ios/",
     "android/",
     "TurnouttCapacitorFirebaseDynamicLinks.podspec"
