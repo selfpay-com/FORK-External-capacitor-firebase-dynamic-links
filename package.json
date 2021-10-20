@@ -1,6 +1,6 @@
 {
   "name": "@selfpay/capacitor-firebase-dynamic-links",
-  "version": "0.2.4",
+  "version": "1.2.4",
   "description": "Capacitor Plugin for Firebase Dynamic Links",
   "main": "src/index.ts",
   "scripts": {
