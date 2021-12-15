@@ -1,6 +1,6 @@
 {
   "name": "@selfpay/fork-external-capacitor-firebase-dynamic-links",
-  "version": "5.0.4",
+  "version": "5.0.5",
   "description": "Capacitor Plugin for Firebase Dynamic Links",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
