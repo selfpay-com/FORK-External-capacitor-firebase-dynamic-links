@@ -1,5 +1,5 @@
 {
-  "name": "@selfpay/capacitor-firebase-dynamic-links",
+  "name": "@selfpay/fork-external-capacitor-firebase-dynamic-links",
   "version": "5.0.0",
   "description": "Capacitor Plugin for Firebase Dynamic Links",
   "module": "dist/esm/index.js",
@@ -41,10 +41,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/selfpay-ro/capacitor-firebase-dynamic-links.git"
+    "url": "https://github.com/selfpay-com/FORK-External-capacitor-firebase-dynamic-links.git"
   },
   "bugs": {
-    "url": "https://github.com/selfpay-ro/capacitor-firebase-dynamic-links.git/issues"
+    "url": "https://github.com/selfpay-com/FORK-External-capacitor-firebase-dynamic-links.git/issues"
   },
-  "homepage": "https://github.com/selfpay-ro/capacitor-firebase-dynamic-links#readme"
+  "homepage": "https://github.com/selfpay-com/FORK-External-capacitor-firebase-dynamic-links#readme"
 }
